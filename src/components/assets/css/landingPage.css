@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    /* background: url("../img/valley.png"); */
+    background-image: linear-gradient(
+        90deg,
+        #ddfbff77 0%,
+        #ffffff5b 45%,
+        #65d9fca9 50%,
+        #003a5570 100%
+      ), url("../img/valley.png");
+     
+   
+}
+.fondo{
+    padding: 20px;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.fondo img{
+    width: 300px;
+    height:200px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 10px;
+   margin:10px
+}
+.btnIngresar{
+    background-color: transparent;
+   border: none;
+   
+}
+
+
+.startLink a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size:1.5rem;
+    margin-left: 20px;
+}
+.startL a{
+    font-weight:bold;
+    font-size:2.5rem;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;   
+}
